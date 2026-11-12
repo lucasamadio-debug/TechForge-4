@@ -1,0 +1,17 @@
+{
+  "name": "acervo-poo-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de acervo em console para estudo de POO com TypeScript",
+  "scripts": {
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "npm run build && node dist/testes.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
